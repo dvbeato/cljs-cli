@@ -1,0 +1,12 @@
+{
+  "name": "my-tool",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "lumo -c src -m hello-world.lumotest"
+  },
+  "dependencies": {
+    "lumo-cljs": "^1.8.0",
+    "request": "^2.85.0",
+    "chalk": "4.1.0"
+  }
+}
